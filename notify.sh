@@ -1,9 +1,9 @@
 #!/usr/bin/env sh
 
-SILENT = 0
+SILENT=0
 
-if [["$2" == "silent"]]; then
-   SILENT = 1
+if [[ "$2" == "silent" ]]; then
+   SILENT=1
 fi
 
 TIME="10"

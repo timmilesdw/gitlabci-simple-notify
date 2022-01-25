@@ -3,6 +3,9 @@
 Simple notifications from Gitlab CI to telegram
 
 # Usage
+
+Set gitlab-ci variables ```TELEGRAM_BOT_TOKEN``` and ```TELEGRAM_USER_ID```
+
 ```bash
 docker run timmiles/gitlabci-simple-notify <start|end> <silent | "">
 ```
