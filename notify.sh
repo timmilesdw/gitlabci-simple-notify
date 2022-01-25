@@ -8,7 +8,7 @@ fi
 
 TIME="10"
 URL="https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage"
-TEXT="Starting pipeline: %0AProject:+$CI_PROJECT_NAME%0AURL:+$CI_PROJECT_URL/pipelines/$CI_PIPELINE_ID/%0ABranch:+$CI_COMMIT_REF_SLUG%0ATag:+$CI_COMMIT_TAG%0ACommit:$CI_COMMIT_SHORT_SHA"
+TEXT="Starting pipeline: 🚀%0A%0AProject:+$CI_PROJECT_NAME%0AURL:+$CI_PROJECT_URL/pipelines/$CI_PIPELINE_ID/%0ABranch:+$CI_COMMIT_REF_SLUG%0ATag:+$CI_COMMIT_TAG%0ACommit:$CI_COMMIT_SHORT_SHA"
 
 
 if [[ "$1" == "end" ]]; then
