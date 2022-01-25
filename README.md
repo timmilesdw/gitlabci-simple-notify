@@ -1,5 +1,9 @@
 # GitlabCI Simple Notify
 
+[![CircleCI](https://circleci.com/gh/timmilesdw/gitlabci-simple-notify/tree/main.svg?style=svg)](https://circleci.com/gh/timmilesdw/gitlabci-simple-notify/tree/main)
+
+[![dockeri.co](https://dockeri.co/image/timmiles/gitlabci-simple-notify)](https://hub.docker.com/r/timmiles/gitlabci-simple-notify)
+
 Simple notifications from Gitlab CI to telegram
 
 # Usage
