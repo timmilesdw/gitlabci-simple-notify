@@ -24,7 +24,7 @@ Notify Start:
     stage: Notify Start
     <<: *notify_configuration
     script:
-      - start
+      - /notify.sh start silent
 
 Generate Changelog:
   stage: Generate Changelog
@@ -48,13 +48,13 @@ Notify Success:
     stage: Notify End
     <<: *notify_configuration
     script:
-      - end ✅
+      - /notify.sh loud end ✅
 
 Notify Fail:
     stage: Notify End
     <<: *notify_configuration
     script:
-      - end ❌
+      - /notify.sh loud end ❌
     when: on_failure
 
 ```
